@@ -20,9 +20,12 @@
         <![endif]-->
        <div class="">
             <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark pl-1">
-                <a class="navbar-brand navi" href="#">Home</a>
+                <a class="navbar-brand navi" href="#home">Home</a>
                 <div>
                     <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About Me</a>
+                        </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#projects">Projects</a>
                         </li>
@@ -34,19 +37,23 @@
             </nav>
         </div>
         
-        <section class="first bg-dark text-light">
+        <section class="first bg-dark text-light" id="home">
             <div class="jumbotron text-center home-space">
-                <h1 class="display-2">Muhamed Imamovic</h1>
+                <h1 class="display-2">Muhamed Imamović</h1>
                 <a href="https://github.com/Muhamed1303" target="_blank" class="mx-2" style="transition: 0.6s;"><i class="fa fa-brands fa-github fa-2x"></i></a>
                 <a href="" target="_blank" class="mx-2" style="transition: 0.6s;"><i class="fa fa-brands fa-linkedin fa-2x"></i></a>
             </div>
         </section>
-
+        <section class="aboutMe py-5 container">
+            <h1 id="about" class="pb-5"></h1>
+            <h1 class="jumbotron text-center display-4">About Me</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore earum nam saepe sed veniam. Quisquam magni consectetur velit laboriosam? Dolorum eum atque libero cumque optio voluptates veritatis sapiente illum, eveniet nostrum asperiores, impedit ipsum harum beatae sit aliquam non. Totam temporibus iusto animi numquam maiores beatae dolores et tempore optio?</p>
+        </section>
         <section class="projects container py-5">
             <h1 id="projects" class="pb-5"></h1>
             <h1 class="jumbotron text-center display-4">Projects</h1>
             <div class="row g-5 mt-4">
-                <div class="col-lg-4 col-md-6 col-12" style="min-width: 24rem; min-height: 31rem;">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12" style="min-width: 24rem; min-height: 31rem;">
                     <div class="card" >
                         <img class="card-img-top" src="https://nypost.com/wp-content/uploads/sites/2/2020/06/spongebob-gay-1.jpg?quality=80&strip=all&w=1024" alt="Spongebob">
                         <div class="card-body">
@@ -59,7 +66,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12"  style="min-width: 24rem; min-height: 31rem;">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12"  style="min-width: 24rem; min-height: 31rem;">
                     <div class="card">
                         <img class="card-img-top" src="https://nypost.com/wp-content/uploads/sites/2/2020/06/spongebob-gay-1.jpg?quality=80&strip=all&w=1024" alt="Spongebob">
                         <div class="card-body">
@@ -72,7 +79,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12" style="min-width: 24rem; min-height: 31rem;">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12" style="min-width: 24rem; min-height: 31rem;">
                     <div class="card">
                         <img class="card-img-top hover-shadow" src="https://nypost.com/wp-content/uploads/sites/2/2020/06/spongebob-gay-1.jpg?quality=80&strip=all&w=1024" alt="Spongebob">
                         <div class="card-body">
@@ -85,7 +92,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12" style="min-width: 24rem; min-height: 31rem;">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12" style="min-width: 24rem; min-height: 31rem;">
                     <div class="card">
                         <img class="card-img-top" src="https://nypost.com/wp-content/uploads/sites/2/2020/06/spongebob-gay-1.jpg?quality=80&strip=all&w=1024" alt="Spongebob">
                         <div class="card-body">
@@ -98,7 +105,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12" style="min-width: 24rem; min-height: 31rem;">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12" style="min-width: 24rem; min-height: 31rem;">
                     <div class="card">
                         <img class="card-img-top" src="https://nypost.com/wp-content/uploads/sites/2/2020/06/spongebob-gay-1.jpg?quality=80&strip=all&w=1024" alt="Spongebob">
                         <div class="card-body">
@@ -111,7 +118,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 col-12" style="min-width: 24rem; min-height: 31rem;">
+                <div class="col-lg-4 col-md-6 col-sm-12 col-12" style="min-width: 24rem; min-height: 31rem;">
                     <div class="card">
                         <img class="card-img-top" src="https://nypost.com/wp-content/uploads/sites/2/2020/06/spongebob-gay-1.jpg?quality=80&strip=all&w=1024" alt="Spongebob">
                         <div class="card-body">
@@ -126,12 +133,12 @@
                 </div>
             </div>
         </section>
-        <section class="contact container py-4">
+        <section class="contact container py-5">
             <h1 id="contact" class="pb-5"></h1>
             <h1 class="jumbotron text-center py-5 display-4">Contact Me</h1>
             <form>
                 <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-4">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
                         <div class="form-group">
                             <label for="mail">Email</label>
                             <input type="email" class="form-control my-1" id="mail" placeholder="name@example.com" required>
@@ -145,15 +152,21 @@
                             <input type="text" class="form-control my-1" id="subject" placeholder="Subject">
                         </div>
                     </div>
-                    <div class="form-group col-lg-8 col-md-8 col-sm-8">
+                    <div class="form-group col-lg-8 col-md-8 col-sm-12">
                         <label for="message">Message</label>
                         <textarea id="message" rows="7" placeholder="Message" class="form-control my-1" required></textarea>
                     </div>
                     <div class="pb-5">
-                        <button type="submit" class="btn btn-outline-primary col-lg-12 col-md-12 col-sm-12 my-2">SEND</button>
+                        <button type="submit" class="btn btn-outline-primary col-lg-12 col-md-12 col-sm-12 col-12 my-2 text-uppercase">send</button>
                     </div>
                 </div>
             </form>
+        </section>
+        <section class="pt-5">
+            <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.6);">
+                © 2021 Copyright:
+                <a class="text-reset fw-bold text-decoration-none" href="#home">Muhamed Imamović</a>
+            </div>
         </section>
         <script src="" async defer></script>
     </body>
